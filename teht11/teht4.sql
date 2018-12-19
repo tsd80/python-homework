@@ -1,0 +1,2 @@
+select `Maastoruutu`.`Xkoord`,`Maastoruutu`.`Ykoord`, `Maastotyyppi`.`Liikkumisvaikeus`,`Maastotyyppi`.`Taisteluvaikeus` from `Maastoruutu`,`Maastotyyppi` where `Maastoruutu`.`MaastotyyppiId`=`Maastotyyppi`.`Id`;
+select `Esinetyyppi`.`Nimi` from `Esinetyyppi`,`Esine`,`Pelihahmo` where `Esine`.`EsinetyyppiId`=`Esinetyyppi`.`Id` and `Esine`.`PelihahmoId`=`Pelihahmo`.`Id`;

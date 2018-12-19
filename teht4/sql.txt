@@ -1,0 +1,7 @@
+a) UPDATE `TYONTEKIJA` SET `Sukunimi` = 'Tsyganok', `Etunimi` = 'Dmitri' WHERE `Tyontekijanumero` = '11';
+
+b) INSERT INTO `TYONTEKIJA` (`Tyontekijanumero`, `Sukunimi`, `Etunimi`, `Osastonumero`, `Lahios`, `Postinumero`, `Puhelin`, `Palkka`) VALUES (NULL, 'Dmitri', 'Tsyganok', '3', 'Mehiläisentie 18B', '01490', '045-1281860', '3400');
+
+c) UPDATE `TYONTEKIJA` SET `Osastonumero` = '2' WHERE `Tyontekijanumero` = '295';
+
+d) DELETE FROM `OSASTO` WHERE `Osastonumero` IN ('3');

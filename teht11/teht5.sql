@@ -1,0 +1,1 @@
+select `Vihollistyyppi`.`LajiNimi`,`Taika`.`Nimi` from `Vihollinen`,`Vihollistyyppi`,`Osaa`,Taika where `Vihollinen`.`VihollistyyppiId`=`Vihollistyyppi`.`Id` and `Vihollistyyppi`.`Id`=`Osaa`.`VihollistyyppiId` and `Osaa`.`TaikaId`=`Taika`.`Id`;
